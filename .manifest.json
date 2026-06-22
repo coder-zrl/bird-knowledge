@@ -1,8 +1,19 @@
 {
   "version": 1,
   "vault_path": "/Users/zhangruilong/Documents/bird-knowledge",
-  "sources": [],
+  "sources": [
+    {
+      "resource": "/_raw/books/福格行为模型 (B.J.福格).epub",
+      "type": "epub",
+      "title": "福格行为模型",
+      "author": "B.J.福格",
+      "pages": [
+        "/references/福格行为模型.md"
+      ],
+      "ingested_at": "2026-06-23T01:20:01+08:00",
+      "status": "reference-created"
+    }
+  ],
   "projects": {},
-  "updated": "2026-06-23T01:02:26+08:00"
+  "updated": "2026-06-23T01:20:01+08:00"
 }
-

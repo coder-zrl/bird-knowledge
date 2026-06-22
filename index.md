@@ -13,6 +13,10 @@ This is the root index for the Bird Knowledge OKF bundle.
 - [Hot Cache](/hot.md)
 - [Taxonomy](/_meta/taxonomy.md)
 
+## References
+
+- [福格行为模型](/references/福格行为模型.md)
+
 ## Sections
 
 - [Concepts](/concepts/)
@@ -22,4 +26,3 @@ This is the root index for the Bird Knowledge OKF bundle.
 - [Synthesis](/synthesis/)
 - [Journal](/journal/)
 - [Projects](/projects/)
-
