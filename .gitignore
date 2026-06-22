@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Obsidian local app state and settings.
+.obsidian/

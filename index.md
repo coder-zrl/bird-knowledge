@@ -16,6 +16,13 @@ This is the root index for the Bird Knowledge OKF bundle.
 ## References
 
 - [福格行为模型](/references/福格行为模型.md)
+- [How To Fix Your Entire Life In 1 Day](/references/Dan Koe - How To Fix Your Entire Life In 1 Day.md)
+- [如何在一天内修复整个人生](/references/Dan Koe - 如何在一天内修复整个人生.md)
+
+## Concepts
+
+- [身份驱动的行为改变](/concepts/身份驱动的行为改变.md)
+- [人生重置的一日协议](/concepts/人生重置的一日协议.md)
 
 ## Sections
 
