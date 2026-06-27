@@ -18,4 +18,5 @@
 - 2026-06-27T22:53:56+08:00 - Strengthened `/synthesis/AI时代，人成长的第一性原理.md` as a reusable methodology by making cognitive model updating the explicit main line, naming the 七问框架 / First-Principles Learning Framework, and unifying the final loop.
 - 2026-06-27T22:55:58+08:00 - Polished three lines in `/synthesis/AI时代，人成长的第一性原理.md`: softened chapter 1's model language, renamed the framework to 第一性学习七问, and strengthened the closing claim about cognitive model update speed.
 - 2026-06-27T22:58:07+08:00 - Added next-article TODO: 《什么是认知？——重新理解世界模型与判断力》.
-- 2026-06-27T23:27:38+08:00 - Added Learning OS skill at `/skills/learn/SKILL.md`.
+- 2026-06-27T23:27:38+08:00 - Initially added the Learning OS skill as a repository asset.
+- 2026-06-27T23:31:50+08:00 - Stored Learning OS skill at `/.codex/skills/learn/SKILL.md` and installed it to `/Users/zhangruilong/.agents/skills/learn/SKILL.md`.

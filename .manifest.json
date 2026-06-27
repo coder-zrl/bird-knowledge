@@ -47,12 +47,12 @@
       "title": "learn",
       "author": "user",
       "pages": [
-        "/skills/learn/SKILL.md"
+        "/.codex/skills/learn/SKILL.md"
       ],
       "ingested_at": "2026-06-27T23:27:38+08:00",
-      "status": "skill-created"
+      "status": "repo-codex-skill-and-agents-installed"
     }
   ],
   "projects": {},
-  "updated": "2026-06-27T23:27:38+08:00"
+  "updated": "2026-06-27T23:31:50+08:00"
 }

@@ -5,7 +5,7 @@ description: Recent working context for the Bird Knowledge OKF bundle.
 tags:
   - cache
   - working-context
-timestamp: 2026-06-27T23:27:38+08:00
+timestamp: 2026-06-27T23:31:50+08:00
 ---
 
 # Hot Cache
@@ -22,7 +22,7 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - Stored the user-provided Dan Koe X article original and capture notes in one [raw markdown source](/_raw/web/dan-koe-how-to-fix-your-entire-life-in-1-day.md).
 - Added [如何在一天内修复整个人生](/references/Dan Koe - 如何在一天内修复整个人生.md) as the Chinese reading version.
 - Consolidated the AI-era learning and growth series into one long-form synthesis: [AI时代，人成长的第一性原理](/synthesis/AI时代，人成长的第一性原理.md).
-- Added [Learn](/skills/learn/SKILL.md), a Learning OS skill for using AI to update mental models rather than summarize content.
+- Moved the Learn runtime skill to `/.codex/skills/learn/SKILL.md` in the repository and installed it at `/Users/zhangruilong/.agents/skills/learn/SKILL.md`.
 
 ## Active Threads
 
