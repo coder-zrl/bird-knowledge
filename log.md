@@ -20,3 +20,8 @@
 - 2026-06-27T22:58:07+08:00 - Added next-article TODO: 《什么是认知？——重新理解世界模型与判断力》.
 - 2026-06-27T23:27:38+08:00 - Initially added the Learning OS skill as a repository asset.
 - 2026-06-27T23:31:50+08:00 - Stored Learning OS skill at `/.codex/skills/learn/SKILL.md` and installed it to `/Users/zhangruilong/.agents/skills/learn/SKILL.md`.
+- 2026-06-28T00:24:13+08:00 - Added synthesis `/synthesis/什么是认知？——重新理解世界、判断与成长.md`.
+- 2026-06-28T00:57:42+08:00 - Strengthened `/synthesis/什么是认知？——重新理解世界、判断与成长.md` by adding cognition's uncertainty-reduction purpose, perception in the cognition loop, a definition of judgment, why cognition can be wrong, and a research TODO on predictive cognition.
+- 2026-06-28T01:01:06+08:00 - Tightened `/synthesis/什么是认知？——重新理解世界、判断与成长.md` by standardizing on “解释系统”, removing repeated model-update claims, and strengthening the final sentence around approaching reality.
+- 2026-06-28T01:03:30+08:00 - Finalized the “解释系统” theory in `/synthesis/什么是认知？——重新理解世界、判断与成长.md`: defined explanation system, added why it must update, framed cognition as explanation + prediction + correction, and strengthened the ending.
+- 2026-06-28T01:14:27+08:00 - Rewrote `/synthesis/什么是认知？——重新理解世界、判断与成长.md` from the user-provided draft, focusing the theory on explanation, judgment, feedback, and revisable explanation systems.

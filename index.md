@@ -27,6 +27,7 @@ This is the root index for the Bird Knowledge OKF bundle.
 ## Synthesis
 
 - [AI时代，人成长的第一性原理](/synthesis/AI时代，人成长的第一性原理.md)
+- [什么是认知？——重新理解世界、判断与成长](/synthesis/什么是认知？——重新理解世界、判断与成长.md)
 
 ## Sections
 

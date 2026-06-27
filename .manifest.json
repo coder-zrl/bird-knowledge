@@ -51,8 +51,19 @@
       ],
       "ingested_at": "2026-06-27T23:27:38+08:00",
       "status": "repo-codex-skill-and-agents-installed"
+    },
+    {
+      "resource": "conversation:2026-06-28",
+      "type": "user-reflection",
+      "title": "什么是认知？——重新理解世界、判断与成长",
+      "author": "user",
+      "pages": [
+        "/synthesis/什么是认知？——重新理解世界、判断与成长.md"
+      ],
+      "ingested_at": "2026-06-28T00:24:13+08:00",
+      "status": "synthesis-created"
     }
   ],
   "projects": {},
-  "updated": "2026-06-27T23:31:50+08:00"
+  "updated": "2026-06-28T01:14:27+08:00"
 }
