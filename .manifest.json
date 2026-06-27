@@ -40,8 +40,19 @@
       ],
       "ingested_at": "2026-06-27T21:25:03+08:00",
       "status": "synthesis-created"
+    },
+    {
+      "resource": "conversation:2026-06-27",
+      "type": "skill",
+      "title": "learn",
+      "author": "user",
+      "pages": [
+        "/skills/learn/SKILL.md"
+      ],
+      "ingested_at": "2026-06-27T23:27:38+08:00",
+      "status": "skill-created"
     }
   ],
   "projects": {},
-  "updated": "2026-06-27T22:55:58+08:00"
+  "updated": "2026-06-27T23:27:38+08:00"
 }

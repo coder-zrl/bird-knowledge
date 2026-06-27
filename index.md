@@ -28,6 +28,10 @@ This is the root index for the Bird Knowledge OKF bundle.
 
 - [AI时代，人成长的第一性原理](/synthesis/AI时代，人成长的第一性原理.md)
 
+## Skills
+
+- [Learn](/skills/learn/SKILL.md)
+
 ## Sections
 
 - [Concepts](/concepts/)
