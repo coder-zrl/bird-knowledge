@@ -24,6 +24,10 @@ This is the root index for the Bird Knowledge OKF bundle.
 - [身份驱动的行为改变](/concepts/身份驱动的行为改变.md)
 - [人生重置的一日协议](/concepts/人生重置的一日协议.md)
 
+## Synthesis
+
+- [AI时代，人成长的第一性原理](/synthesis/AI时代，人成长的第一性原理.md)
+
 ## Sections
 
 - [Concepts](/concepts/)
