@@ -1,7 +1,7 @@
 ---
 type: project
 title: Bird Knowledge
-description: A Codex-first personal knowledge base managed as an Open Knowledge Format bundle.
+description: 一个 Codex-first、OKF-first 的个人知识库。
 tags:
   - pkm
   - okf
@@ -11,42 +11,44 @@ timestamp: 2026-06-23T01:02:26+08:00
 
 # Bird Knowledge
 
-Bird is a personal knowledge base managed as an Open Knowledge Format bundle.
+Bird Knowledge 是一个以 Codex 为主要写作者、以 Open Knowledge Format（OKF）为长期文件契约的个人知识库。
 
-The repository stays plain-text and git-friendly. Obsidian can be used as a reader, and Codex can be used as the main writer, but the durable file contract is OKF: markdown files with YAML frontmatter and a required `type` field.
+这个仓库保持纯文本、git-friendly、可长期迁移。Obsidian 可以作为阅读器，Codex 可以作为主要写作者，但真正持久的格式约束是 OKF：Markdown 文件必须带 YAML frontmatter，并且知识页必须有非空的 `type` 字段。
 
-## Format Rules
+## 格式规则
 
-- Every knowledge markdown file has YAML frontmatter.
-- Every knowledge markdown file has a non-empty `type`.
-- Prefer standard markdown links over Obsidian wikilinks.
-- Internal links should be bundle-relative, for example `[Open Knowledge Format](/references/Open Knowledge Format.md)`.
-- `index.md` and `log.md` are reserved root files.
-- Hidden tool directories are not part of the knowledge bundle.
+- 每个知识型 Markdown 文件都要有 YAML frontmatter。
+- 每个知识型 Markdown 文件都要有非空的 `type`。
+- 优先使用标准 Markdown 链接，不使用 Obsidian wikilinks。
+- 内部链接使用 bundle-relative 路径，例如 `[Open Knowledge Format](/references/Open Knowledge Format.md)`。
+- `index.md` 和 `log.md` 是根目录保留文件。
+- `.git/`、`.obsidian/` 等隐藏工具目录不是知识内容。
+- `.codex/skills/` 是给 AI runtime 读取的 Skill 配置，不是普通知识页。
 
-## Layout
+## 目录结构
 
 ```text
-index.md         Root OKF index.
-log.md           Append-only activity log.
-hot.md           Recent working context as an OKF note.
-.manifest.json   Local ingest and sync tracking.
-.env             Local tool configuration.
-.obsidian/       Optional Obsidian reader configuration.
-_meta/           Format notes, taxonomy, and local conventions.
-_raw/            Unprocessed captures waiting for ingest.
-_staging/        Human review queue for generated notes.
-_archives/       Archived snapshots or retired material.
-concepts/        Abstract ideas, mental models, claims, distinctions.
-entities/        People, tools, projects, organizations, concrete objects.
-references/      Source-backed factual notes, specs, papers, articles.
-skills/          Procedural knowledge and reusable ways of working.
-synthesis/       Cross-source analysis and higher-level essays.
-journal/         Time-bound notes and session records.
-projects/        Active knowledge projects.
+index.md           根索引。
+log.md             追加式活动日志。
+hot.md             当前工作上下文和下一步 TODO。
+.manifest.json     来源、页面和同步状态追踪。
+.codex/skills/     给 AI runtime 读取的 Skill 配置。
+.env               本地工具配置。
+.obsidian/         可选的 Obsidian 阅读器配置。
+_meta/             本地约定、分类法和 schema 说明。
+_raw/              原始材料和未处理捕获。
+_staging/          待人工审阅的生成内容。
+_archives/         归档、快照和退休材料。
+concepts/          可复用概念、心智模型、判断和区分。
+entities/          人、工具、项目、组织、具体对象。
+references/        有来源边界的事实笔记、书籍、论文、文章。
+skills/            知识库里的程序性知识和可复用方法。
+synthesis/         跨来源综合、原创分析和长文。
+journal/           时间性记录、会话笔记和阶段性反思。
+projects/          持续推进的知识项目。
 ```
 
-## Knowledge Flow
+## 知识流
 
 ```text
 _raw/
@@ -57,9 +59,21 @@ _raw/
   -> index.md, log.md, hot.md, .manifest.json
 ```
 
-Raw material starts in `_raw/`. Codex promotes it into OKF pages with source boundaries, then links related concepts, entities, references, and synthesis notes.
+原始材料先进入 `_raw/`。Codex 在保留来源边界的前提下，把它们整理成 `references/` 或 `entities/`，再抽象成 `concepts/`，最后形成 `synthesis/` 或 `projects/`。
 
-## Current Tooling
+## `skills/` 和 `.codex/skills/` 的区别
 
-`obsidian-wiki` is installed globally for Codex-oriented operations, but this repository is intentionally OKF-first. Use `obsidian-wiki` as a helper, not as the source of truth for file format decisions.
+`skills/` 是知识库内容目录，用来保存人和 AI 都能阅读的方法论笔记，例如“如何做深度阅读”“如何整理一本书”。
 
+`.codex/skills/` 是 AI runtime 配置目录，用来保存 Codex / Agent 执行任务时读取的 Skill，例如 `learn`。
+
+简单说：
+
+```text
+skills/         知识库里的方法论笔记
+.codex/skills/  AI 执行任务时读取的运行指令
+```
+
+## 当前工具
+
+`obsidian-wiki` 已经全局安装，可以作为 Codex 操作知识库时的辅助工具。但这个仓库仍然是 OKF-first：文件格式、目录语义和长期契约以本仓库的 OKF 规则为准。
