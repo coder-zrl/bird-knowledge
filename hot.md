@@ -38,7 +38,7 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - Continue extracting reusable concepts from the AI-era growth framework, especially cognition, world model, judgment, and model update speed.
 - TODO research question: 为什么好的认知模型具有预测能力？连接世界模型、抽象、第一性原理和科学理论。
 - Consider folding Model Update Reading into the runtime `learn` skill as a dedicated reading mode.
-- Continue [第一章 大脑——一切问题的起源](/projects/认知觉醒/第一章 大脑——一切问题的起源.md) from 第二节“焦虑” and 第三节“耐心”; do not skip subsection cycles.
+- Continue [第一章 大脑——一切问题的起源](/projects/认知觉醒/第一章 大脑——一切问题的起源.md) from 第三节“耐心”; do not skip subsection cycles.
 
 ## Key Takeaways
 
@@ -66,4 +66,5 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - Model Update Reading reframes AI-assisted reading as old explanation system -> author's model -> AI challenge -> conflict exposure -> explanation system update.
 - Runtime `learn` skill now applies Model Update Reading when the learning object is a book, paper, course, long article, or video.
 - 《认知觉醒》第一节当前更新：真正的自律不是理智脑亲自干活，而是理智脑当设计师，让本能和情绪愿意出力。
+- 《认知觉醒》第二节当前更新：学习只有真实提升能力、缩小欲望和能力差距时，才会缓解焦虑；求多求快会放大欲望并制造额外焦虑。
 - Reading projects separate source records from learning-process notes: `references/` records the source, while `projects/<Book Title>/` stores chapter notes.

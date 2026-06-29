@@ -32,3 +32,4 @@
 - 2026-06-29T13:45:25+08:00 - Moved active 《认知觉醒》 chapter learning notes into project page `/projects/认知觉醒阅读.md`.
 - 2026-06-29T13:45:25+08:00 - Reorganized 《认知觉醒》 reading notes into chapter files under `/projects/认知觉醒/`, starting with `/projects/认知觉醒/第一章 大脑——一切问题的起源.md`.
 - 2026-06-29T13:51:02+08:00 - Updated `README.md` and `AGENTS.md` with the reading project style: source records in `references/`, active chapter notes in `projects/<Book Title>/`.
+- 2026-06-29T13:51:02+08:00 - Added 第一章第二节“焦虑：焦虑的根源” model-update notes to `/projects/认知觉醒/第一章 大脑——一切问题的起源.md`.
