@@ -70,4 +70,5 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - 《认知觉醒》第三节当前更新：耐心不是硬靠毅力忍出来的，而是看清成长规律后形成的长远目光。
 - 《认知觉醒》第一章笔记已从问答记录整理为正式读书笔记结构，并补足复利效应、舒适区边缘、成长权重对比、学习平台期、焦虑类型对应方法和行动原则。
 - Runtime `learn` skill now distinguishes user reading notes from answers to prompts, identifies missing note content, and asks before AI fills gaps.
+- [模型更新阅读法](/skills/模型更新阅读法.md) now includes a reusable chapter reading-note template.
 - Reading projects separate source records from learning-process notes: `references/` records the source, while `projects/<Book Title>/` stores chapter notes.

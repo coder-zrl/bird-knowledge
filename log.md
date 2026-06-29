@@ -37,3 +37,4 @@
 - 2026-06-29T23:55:57+08:00 - Reworked `/projects/认知觉醒/第一章 大脑——一切问题的起源.md` from Q&A notes into structured chapter notes and expanded the patience section's macro/micro growth laws.
 - 2026-06-29T23:57:28+08:00 - Updated `/.codex/skills/learn/SKILL.md` with a user-note organization mode that asks before AI fills missing note content.
 - 2026-06-30T00:00:59+08:00 - Removed the working-state block from `/projects/认知觉醒/第一章 大脑——一切问题的起源.md` and added first-chapter action principles plus missing connective details.
+- 2026-06-30T00:08:34+08:00 - Added a reusable chapter reading-note template to `/skills/模型更新阅读法.md`.
