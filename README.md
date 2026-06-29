@@ -6,7 +6,7 @@ tags:
   - pkm
   - okf
   - codex
-timestamp: 2026-06-23T01:02:26+08:00
+timestamp: 2026-06-29T13:51:02+08:00
 ---
 
 # Bird Knowledge
@@ -60,6 +60,26 @@ _raw/
 ```
 
 原始材料先进入 `_raw/`。Codex 在保留来源边界的前提下，把它们整理成 `references/` 或 `entities/`，再抽象成 `concepts/`，最后形成 `synthesis/` 或 `projects/`。
+
+## 读书项目风格
+
+读一本书时，不要把所有笔记都塞进 `references/`。
+
+- `_raw/books/` 保存 EPUB、PDF 等原始书籍文件。
+- `references/书名.md` 保存书籍来源信息、资源路径、出版信息和稳定的作者模型摘要。
+- `projects/书名/` 保存正在进行的阅读项目。
+- `projects/书名/第一章 章节标题.md` 这类文件保存分章节读书笔记。
+- 每章笔记按小节逐步追加；尚未讨论的小节不要提前写满。
+- 从章节讨论中提炼出的稳定概念，再进入 `concepts/`。
+- 跨多本书或多来源形成的综合判断，再进入 `synthesis/`。
+
+最小例子：
+
+```text
+_raw/books/认知觉醒.epub
+references/认知觉醒.md
+projects/认知觉醒/第一章 大脑——一切问题的起源.md
+```
 
 ## `skills/` 和 `.codex/skills/` 的区别
 

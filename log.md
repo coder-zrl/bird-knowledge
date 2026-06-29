@@ -19,9 +19,16 @@
 - 2026-06-27T22:55:58+08:00 - Polished three lines in `/synthesis/AI时代，人成长的第一性原理.md`: softened chapter 1's model language, renamed the framework to 第一性学习七问, and strengthened the closing claim about cognitive model update speed.
 - 2026-06-27T22:58:07+08:00 - Added next-article TODO: 《什么是认知？——重新理解世界模型与判断力》.
 - 2026-06-27T23:27:38+08:00 - Initially added the Learning OS skill as a repository asset.
-- 2026-06-27T23:31:50+08:00 - Stored Learning OS skill at `/.codex/skills/learn/SKILL.md` and installed it to `/Users/zhangruilong/.agents/skills/learn/SKILL.md`.
+- 2026-06-27T23:31:50+08:00 - Stored Learning OS skill at `/.codex/skills/learn/SKILL.md` as a repository AI runtime asset.
 - 2026-06-28T00:24:13+08:00 - Added synthesis `/synthesis/什么是认知？——重新理解世界、判断与成长.md`.
 - 2026-06-28T00:57:42+08:00 - Strengthened `/synthesis/什么是认知？——重新理解世界、判断与成长.md` by adding cognition's uncertainty-reduction purpose, perception in the cognition loop, a definition of judgment, why cognition can be wrong, and a research TODO on predictive cognition.
 - 2026-06-28T01:01:06+08:00 - Tightened `/synthesis/什么是认知？——重新理解世界、判断与成长.md` by standardizing on “解释系统”, removing repeated model-update claims, and strengthening the final sentence around approaching reality.
 - 2026-06-28T01:03:30+08:00 - Finalized the “解释系统” theory in `/synthesis/什么是认知？——重新理解世界、判断与成长.md`: defined explanation system, added why it must update, framed cognition as explanation + prediction + correction, and strengthened the ending.
 - 2026-06-28T01:14:27+08:00 - Rewrote `/synthesis/什么是认知？——重新理解世界、判断与成长.md` from the user-provided draft, focusing the theory on explanation, judgment, feedback, and revisable explanation systems.
+- 2026-06-29T00:12:31+08:00 - Added skill note `/skills/模型更新阅读法.md`.
+- 2026-06-29T00:14:06+08:00 - Updated runtime skill `/.codex/skills/learn/SKILL.md` with a Model Update Reading mode.
+- 2026-06-29T13:45:25+08:00 - Added reference note `/references/认知觉醒.md` and captured the first subsection's model-update reading answers.
+- 2026-06-29T13:45:25+08:00 - Copied source EPUB for 《认知觉醒》 into `/_raw/books/`.
+- 2026-06-29T13:45:25+08:00 - Moved active 《认知觉醒》 chapter learning notes into project page `/projects/认知觉醒阅读.md`.
+- 2026-06-29T13:45:25+08:00 - Reorganized 《认知觉醒》 reading notes into chapter files under `/projects/认知觉醒/`, starting with `/projects/认知觉醒/第一章 大脑——一切问题的起源.md`.
+- 2026-06-29T13:51:02+08:00 - Updated `README.md` and `AGENTS.md` with the reading project style: source records in `references/`, active chapter notes in `projects/<Book Title>/`.

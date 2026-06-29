@@ -50,7 +50,7 @@
         "/.codex/skills/learn/SKILL.md"
       ],
       "ingested_at": "2026-06-27T23:27:38+08:00",
-      "status": "repo-codex-skill-and-agents-installed"
+      "status": "repo-codex-skill"
     },
     {
       "resource": "conversation:2026-06-28",
@@ -62,8 +62,37 @@
       ],
       "ingested_at": "2026-06-28T00:24:13+08:00",
       "status": "synthesis-created"
+    },
+    {
+      "resource": "conversation:2026-06-29",
+      "type": "skill",
+      "title": "模型更新阅读法",
+      "author": "user",
+      "pages": [
+        "/skills/模型更新阅读法.md"
+      ],
+      "ingested_at": "2026-06-29T00:12:31+08:00",
+      "status": "skill-note-created"
+    },
+    {
+      "resource": "/_raw/books/认知觉醒：开启自我改变的原动力（当你认知觉醒，何惧焦虑迷茫！畅销书《反本能》作者卫蓝激赏力荐！） (周岭 [周岭]) (Z-Library).epub",
+      "type": "epub",
+      "title": "认知觉醒",
+      "author": "周岭",
+      "pages": [
+        "/references/认知觉醒.md",
+        "/projects/认知觉醒/第一章 大脑——一切问题的起源.md"
+      ],
+      "ingested_at": "2026-06-29T13:45:25+08:00",
+      "status": "reading-in-progress"
     }
   ],
-  "projects": {},
-  "updated": "2026-06-28T01:14:27+08:00"
+  "projects": {
+    "认知觉醒": {
+      "page": "/projects/认知觉醒/第一章 大脑——一切问题的起源.md",
+      "source": "/references/认知觉醒.md",
+      "status": "active"
+    }
+  },
+  "updated": "2026-06-29T13:51:02+08:00"
 }

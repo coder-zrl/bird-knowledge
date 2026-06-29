@@ -5,7 +5,7 @@ description: Agent rules for maintaining Bird Knowledge as an Open Knowledge For
 tags:
   - codex
   - okf
-timestamp: 2026-06-23T01:02:26+08:00
+timestamp: 2026-06-29T13:51:02+08:00
 ---
 
 # Codex OKF Management Rules
@@ -55,6 +55,19 @@ Use `obsidian-wiki` skills as helpful operations when useful, but do not let the
 - Put cross-source interpretation in `synthesis/`.
 - Update `index.md`, `log.md`, `hot.md`, and `.manifest.json` after meaningful writes.
 
+## Reading Project Style
+
+When reading a book, keep source notes and learning-process notes separate.
+
+- Store source files such as EPUB or PDF under `_raw/books/`.
+- Create or update `references/<Book Title>.md` for the source record: bibliographic facts, resource path, source boundary, and stable author-model summaries.
+- Do not put all chapter discussion, user answers, practice logs, or learning state into `references/`.
+- Put active reading notes under `projects/<Book Title>/`.
+- Use one markdown file per chapter, named with chapter number and title, for example `projects/认知觉醒/第一章 大脑——一切问题的起源.md`.
+- Append only the sections that have actually been discussed. Do not prefill later sections just because they exist in the table of contents.
+- Extract durable abstractions from chapter notes into `concepts/` only after they become reusable beyond the book.
+- Put cross-book interpretation or higher-level synthesis into `synthesis/`.
+
 ## Page Template
 
 ```markdown
@@ -76,4 +89,3 @@ Write the page in clear markdown.
 
 - [Related Page](/concepts/Related Page.md)
 ```
-

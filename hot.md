@@ -5,7 +5,7 @@ description: Recent working context for the Bird Knowledge OKF bundle.
 tags:
   - cache
   - working-context
-timestamp: 2026-06-28T01:14:27+08:00
+timestamp: 2026-06-29T13:51:02+08:00
 ---
 
 # Hot Cache
@@ -22,8 +22,12 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - Stored the user-provided Dan Koe X article original and capture notes in one [raw markdown source](/_raw/web/dan-koe-how-to-fix-your-entire-life-in-1-day.md).
 - Added [如何在一天内修复整个人生](/references/Dan Koe - 如何在一天内修复整个人生.md) as the Chinese reading version.
 - Consolidated the AI-era learning and growth series into one long-form synthesis: [AI时代，人成长的第一性原理](/synthesis/AI时代，人成长的第一性原理.md).
-- Moved the Learn runtime skill to `/.codex/skills/learn/SKILL.md` in the repository and installed it at `/Users/zhangruilong/.agents/skills/learn/SKILL.md`.
+- Moved the Learn runtime skill to `/.codex/skills/learn/SKILL.md` in the repository as a project-local AI runtime asset.
 - Added [什么是认知？——重新理解世界、判断与成长](/synthesis/什么是认知？——重新理解世界、判断与成长.md) as the next synthesis in the AI-era growth framework.
+- Added [模型更新阅读法](/skills/模型更新阅读法.md) as a reusable reading method that uses AI to expose prediction errors and update the reader's explanation system.
+- Updated `/.codex/skills/learn/SKILL.md` to include Model Update Reading as a dedicated reading mode.
+- Began model-update reading of [认知觉醒](/references/认知觉醒.md); active chapter notes live under `/projects/认知觉醒/`, starting with [第一章 大脑——一切问题的起源](/projects/认知觉醒/第一章 大脑——一切问题的起源.md).
+- Updated [README](/README.md) and [Codex OKF Management Rules](/AGENTS.md) with the reading project style.
 
 ## Active Threads
 
@@ -33,6 +37,8 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - Develop an AI-era growth framework that treats AI as an amplifier for practice, feedback, reflection, and self-update.
 - Continue extracting reusable concepts from the AI-era growth framework, especially cognition, world model, judgment, and model update speed.
 - TODO research question: 为什么好的认知模型具有预测能力？连接世界模型、抽象、第一性原理和科学理论。
+- Consider folding Model Update Reading into the runtime `learn` skill as a dedicated reading mode.
+- Continue [第一章 大脑——一切问题的起源](/projects/认知觉醒/第一章 大脑——一切问题的起源.md) from 第二节“焦虑” and 第三节“耐心”; do not skip subsection cycles.
 
 ## Key Takeaways
 
@@ -57,3 +63,7 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - The cognition essay now standardizes on “解释系统” as its core theoretical language and trims repeated “model update” claims.
 - Explanation system is now explicitly defined as the internal rules a person uses to understand the world, predict the future, and guide action; cognition is framed as explanation, prediction, and correction.
 - Rewrote the cognition synthesis around explanation, judgment, and feedback correction while preserving the core definition of cognition as a revisable explanation system.
+- Model Update Reading reframes AI-assisted reading as old explanation system -> author's model -> AI challenge -> conflict exposure -> explanation system update.
+- Runtime `learn` skill now applies Model Update Reading when the learning object is a book, paper, course, long article, or video.
+- 《认知觉醒》第一节当前更新：真正的自律不是理智脑亲自干活，而是理智脑当设计师，让本能和情绪愿意出力。
+- Reading projects separate source records from learning-process notes: `references/` records the source, while `projects/<Book Title>/` stores chapter notes.
