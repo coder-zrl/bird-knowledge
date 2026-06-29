@@ -33,3 +33,7 @@
 - 2026-06-29T13:45:25+08:00 - Reorganized 《认知觉醒》 reading notes into chapter files under `/projects/认知觉醒/`, starting with `/projects/认知觉醒/第一章 大脑——一切问题的起源.md`.
 - 2026-06-29T13:51:02+08:00 - Updated `README.md` and `AGENTS.md` with the reading project style: source records in `references/`, active chapter notes in `projects/<Book Title>/`.
 - 2026-06-29T13:51:02+08:00 - Added 第一章第二节“焦虑：焦虑的根源” model-update notes to `/projects/认知觉醒/第一章 大脑——一切问题的起源.md`.
+- 2026-06-29T13:51:02+08:00 - Added 第一章第三节“耐心：得耐心者得天下” model-update notes to `/projects/认知觉醒/第一章 大脑——一切问题的起源.md`.
+- 2026-06-29T23:55:57+08:00 - Reworked `/projects/认知觉醒/第一章 大脑——一切问题的起源.md` from Q&A notes into structured chapter notes and expanded the patience section's macro/micro growth laws.
+- 2026-06-29T23:57:28+08:00 - Updated `/.codex/skills/learn/SKILL.md` with a user-note organization mode that asks before AI fills missing note content.
+- 2026-06-30T00:00:59+08:00 - Removed the working-state block from `/projects/认知觉醒/第一章 大脑——一切问题的起源.md` and added first-chapter action principles plus missing connective details.
