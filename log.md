@@ -43,3 +43,6 @@
 - 2026-07-07T13:47:14+08:00 - Added chapter reading note `/projects/津巴多普通心理学（第8版）/第五章 记忆.md`.
 - 2026-07-07T13:47:14+08:00 - Extracted fifth-chapter figures and tables into `/projects/津巴多普通心理学（第8版）/assets/第五章 记忆/` and linked them from the chapter note.
 - 2026-07-07T13:56:15+08:00 - Updated runtime skill `/.codex/skills/learn/SKILL.md` with memory-aware learning assistance based on the fifth-chapter memory model.
+- 2026-07-07T13:58:31+08:00 - Expanded the “遗觉象” concept in `/projects/津巴多普通心理学（第8版）/第五章 记忆.md`.
+- 2026-07-07T13:58:31+08:00 - Rewrote the “遗觉象” concept in `/projects/津巴多普通心理学（第8版）/第五章 记忆.md` into a clearer example-first explanation.
+- 2026-07-07T14:02:12+08:00 - Updated runtime skill `/.codex/skills/learn/SKILL.md` to require example-first, plain-language concept explanations instead of source-like paraphrase.

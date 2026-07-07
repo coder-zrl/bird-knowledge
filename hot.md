@@ -77,7 +77,9 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - 《认知觉醒》第一章笔记已从问答记录整理为正式读书笔记结构，并补足复利效应、舒适区边缘、成长权重对比、学习平台期、焦虑类型对应方法和行动原则。
 - Runtime `learn` skill now distinguishes user reading notes from answers to prompts, identifies missing note content, and asks before AI fills gaps.
 - Runtime `learn` skill now treats AI-assisted learning as memory-aware collaboration: expose old models, deepen encoding, create retrieval paths, distinguish confusable concepts, and reactivate prior concepts across sessions.
+- Runtime `learn` skill now requires example-first, plain-language concept explanations: one-sentence definition, concrete example, boundaries, and a memory hook before academic detail.
 - [模型更新阅读法](/skills/模型更新阅读法.md) now includes a reusable chapter reading-note template.
 - Reading projects separate source records from learning-process notes: `references/` records the source, while `projects/<Book Title>/` stores chapter notes.
 - 《津巴多普通心理学（第8版）》has only been ingested as a source record so far; do not write author-model claims until the relevant body text has been read.
 - 《津巴多普通心理学（第8版）》第五章已读完并整理；记忆的核心模型是“建构性编码、意义组织、线索提取和重构”，不是录像式记录。
+- 《津巴多普通心理学（第8版）》第五章笔记已补充“遗觉象”概念：外界刺激消失后，短时间内仍体验到清晰视觉表象；它不是照相记忆，也不是幻觉。
