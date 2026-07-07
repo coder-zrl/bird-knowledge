@@ -15,6 +15,7 @@ This is the root index for the Bird Knowledge OKF bundle.
 
 ## References
 
+- [津巴多普通心理学（第8版）](/references/津巴多普通心理学（第8版）.md)
 - [认知觉醒](/references/认知觉醒.md)
 - [福格行为模型](/references/福格行为模型.md)
 - [How To Fix Your Entire Life In 1 Day](/references/Dan Koe - How To Fix Your Entire Life In 1 Day.md)
@@ -36,6 +37,7 @@ This is the root index for the Bird Knowledge OKF bundle.
 
 ## Projects
 
+- [津巴多普通心理学（第8版）：第五章 记忆](/projects/津巴多普通心理学（第8版）/第五章 记忆.md)
 - [认知觉醒：第一章 大脑——一切问题的起源](/projects/认知觉醒/第一章 大脑——一切问题的起源.md)
 
 ## Sections

@@ -38,3 +38,8 @@
 - 2026-06-29T23:57:28+08:00 - Updated `/.codex/skills/learn/SKILL.md` with a user-note organization mode that asks before AI fills missing note content.
 - 2026-06-30T00:00:59+08:00 - Removed the working-state block from `/projects/认知觉醒/第一章 大脑——一切问题的起源.md` and added first-chapter action principles plus missing connective details.
 - 2026-06-30T00:08:34+08:00 - Added a reusable chapter reading-note template to `/skills/模型更新阅读法.md`.
+- 2026-07-07T13:01:05+08:00 - Copied source EPUB for 《津巴多普通心理学（第8版）》 into `/_raw/books/`.
+- 2026-07-07T13:01:05+08:00 - Added reference note `/references/津巴多普通心理学（第8版）.md` and initialized reading project directory `/projects/津巴多普通心理学（第8版）/` with `.gitkeep`.
+- 2026-07-07T13:47:14+08:00 - Added chapter reading note `/projects/津巴多普通心理学（第8版）/第五章 记忆.md`.
+- 2026-07-07T13:47:14+08:00 - Extracted fifth-chapter figures and tables into `/projects/津巴多普通心理学（第8版）/assets/第五章 记忆/` and linked them from the chapter note.
+- 2026-07-07T13:56:15+08:00 - Updated runtime skill `/.codex/skills/learn/SKILL.md` with memory-aware learning assistance based on the fifth-chapter memory model.
