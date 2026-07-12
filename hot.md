@@ -32,6 +32,11 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - Added chapter note [第五章 记忆](/projects/津巴多普通心理学（第8版）/第五章 记忆.md), organizing memory as process, stages, classification dimensions, encoding, storage, retrieval, error mechanisms, and learning applications.
 - Extracted fifth-chapter figures and tables into `/projects/津巴多普通心理学（第8版）/assets/第五章 记忆/` and added a figure index to the chapter note.
 - Updated runtime `learn` skill with memory-aware learning assistance: AI should support encoding, storage, retrieval, interference reduction, spaced reactivation, and model updates.
+- Added [Matt Pocock - Writing Great Skills](/references/Matt Pocock - Writing Great Skills.md), a source-backed note on designing predictable, maintainable Agent Skills.
+- Added personal learning note [如何写出优秀的 Skill](/projects/智能体技能学习/如何写出优秀的 Skill.md), separating our learning model and practice from Matt Pocock's source note.
+- Corrected the Agent Skill learning note so user views are recorded only when explicitly expressed; added practical good-versus-bad writing examples.
+- Added Matt Pocock’s own examples for trigger duplication, completion criteria, leading words, no-ops, and negation to the Agent Skill learning note.
+- Standardized the Agent Skill learning note in Chinese; English is now retained only for original terms and code identifiers.
 
 ## Active Threads
 
@@ -45,6 +50,8 @@ Bird Knowledge is now OKF-first. Codex should manage durable knowledge pages as 
 - Continue [第一章 大脑——一切问题的起源](/projects/认知觉醒/第一章 大脑——一切问题的起源.md) from first-chapter recap, then move to Chapter 2.
 - Begin model-update reading of [津巴多普通心理学（第8版）](/references/津巴多普通心理学（第8版）.md), starting with a read-before prediction for “第一章 心智、行为和心理科学”.
 - Continue refining [第五章 记忆](/projects/津巴多普通心理学（第8版）/第五章 记忆.md) with the user's own冲击、理解和模型更新 after discussion.
+- Practice writing small, testable Agent Skills from the principles in [Matt Pocock - Writing Great Skills](/references/Matt Pocock - Writing Great Skills.md).
+- Continue [如何写出优秀的 Skill](/projects/智能体技能学习/如何写出优秀的 Skill.md) by writing and testing the first small Skill on a real task.
 
 ## Key Takeaways
 

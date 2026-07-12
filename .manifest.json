@@ -101,6 +101,19 @@
       ],
       "ingested_at": "2026-07-07T13:01:05+08:00",
       "status": "reading-in-progress"
+    },
+    {
+      "resource": "https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-great-skills",
+      "secondary_resource": "https://www.youtube.com/watch?v=UNzCG3lw6O0",
+      "type": "github-skill-reference",
+      "title": "Matt Pocock - Writing Great Skills",
+      "author": "Matt Pocock",
+      "pages": [
+        "/references/Matt Pocock - Writing Great Skills.md",
+        "/projects/智能体技能学习/如何写出优秀的 Skill.md"
+      ],
+      "ingested_at": "2026-07-13T04:34:09+08:00",
+      "status": "reference-created"
     }
   ],
   "projects": {
@@ -113,7 +126,12 @@
       "page": "/projects/津巴多普通心理学（第8版）/第五章 记忆.md",
       "source": "/references/津巴多普通心理学（第8版）.md",
       "status": "active"
+    },
+    "智能体技能学习": {
+      "page": "/projects/智能体技能学习/如何写出优秀的 Skill.md",
+      "source": "/references/Matt Pocock - Writing Great Skills.md",
+      "status": "active"
     }
   },
-  "updated": "2026-07-07T14:02:12+08:00"
+  "updated": "2026-07-13T04:45:37+08:00"
 }

@@ -46,3 +46,8 @@
 - 2026-07-07T13:58:31+08:00 - Expanded the “遗觉象” concept in `/projects/津巴多普通心理学（第8版）/第五章 记忆.md`.
 - 2026-07-07T13:58:31+08:00 - Rewrote the “遗觉象” concept in `/projects/津巴多普通心理学（第8版）/第五章 记忆.md` into a clearer example-first explanation.
 - 2026-07-07T14:02:12+08:00 - Updated runtime skill `/.codex/skills/learn/SKILL.md` to require example-first, plain-language concept explanations instead of source-like paraphrase.
+- 2026-07-13T04:34:09+08:00 - Added source-backed reference note `/references/Matt Pocock - Writing Great Skills.md` on predictable, maintainable Agent Skill design.
+- 2026-07-13T04:38:04+08:00 - Added personal learning note `/projects/智能体技能学习/如何写出优秀的 Skill.md` with the beginner-oriented Agent Skill framework, template, and practice loop.
+- 2026-07-13T04:42:28+08:00 - Corrected the personal Agent Skill learning note to remove an invented user “old understanding” and added clearly labeled good-versus-bad writing examples.
+- 2026-07-13T04:43:57+08:00 - Added source-backed original examples from Matt Pocock’s Skill document before the AI-written practice examples in the Agent Skill learning note.
+- 2026-07-13T04:45:37+08:00 - Standardized the Agent Skill learning note in Chinese, preserving English only for original terms and code identifiers on first mention.
